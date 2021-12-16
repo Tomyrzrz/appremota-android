@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDB4B4"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/txt_tituloHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/txt_tituloHome"
+        android:textColor="#0000AA"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_logout"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:background="@mipmap/ic_close"
+        android:contentDescription="@string/img_description"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@mipmap/ic_close" />
+
+    <ImageButton
+        android:id="@+id/ibtn_agregar"
+        android:layout_width="91dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="384dp"
+        android:contentDescription="@string/img_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/stat_notify_more" />
+
+    <ImageButton
+        android:id="@+id/ibtn_ver"
+        android:layout_width="94dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@string/img_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_agregar"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

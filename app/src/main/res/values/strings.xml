@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BDRemota_Timo</string>
+    <string name="btn_login_google">Login With Google</string>
+    <string name="txt_titulo">App Remota Timo</string>
+    <string name="txt_tituloHome">Bienvenidos a mi App</string>
+    <string name="img_description">Es una imagen de la App</string>
+    <string name="txt_titulo_agregar" >Agregar Productos</string>
+    <string name="edt_producto">Rufles 56gr</string>
+    <string name="edt_precio">15.5</string>
+    <string name="edt_cantidad">24</string>
+    <string name="btn_agregar">Agregar</string>
+</resources>

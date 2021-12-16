@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580641312558",
+    "project_id": "bdremota2021-timo",
+    "storage_bucket": "bdremota2021-timo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580641312558:android:51aa73e0fb4046c423b4bf",
+        "android_client_info": {
+          "package_name": "com.softim.bdremota_timo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580641312558-j6pfj8ae682j1qaqgbbe6k31nuesgt34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5p5g_EkjTy965f9vJRSq6V-_q1lT6AYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580641312558-j6pfj8ae682j1qaqgbbe6k31nuesgt34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
